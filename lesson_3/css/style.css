@@ -1,0 +1,70 @@
+@import url(reset.css);
+
+*/*{
+    color: forestgreen;
+}
+*/ 
+
+
+div {
+    color: blue;
+}
+
+.text {
+    color: blueviolet;
+}
+
+#poisonous {
+    color:deeppink
+}
+
+div.text {
+    color: indigo;
+}
+
+.title.p-2 {
+    color: red;
+}
+
+
+/*.text {
+    color: yellow;
+}
+.title {
+   color: yellow;
+}
+*/
+
+
+.text,
+.title {
+    color: yellow;
+}
+
+.text p {
+    color: lime;
+}
+
+.image .im-1 {
+    color: aqua;
+}
+
+.text * {
+    color: rgb(139, 77, 7);
+}
+
+.text > p {
+    color: rgb(0, 85, 74);
+}
+
+.text-1 ~ p {
+    color:rgb(255, 6, 6);
+}
+
+.text-1 + p {
+    color: blueviolet;
+}
+
+[class*="navigation"] {
+    color: hotpink
+}
