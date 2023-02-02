@@ -17,7 +17,7 @@
 	font-display: swap;
 }
 
-@import url("reset.css");
+@import url(reset.css);
 
 body {
 	font-family: "Merriweather", sans-serif;
