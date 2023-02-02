@@ -1,0 +1,73 @@
+
+@font-face {
+	font-family: 'Neutral Face';
+	src: url("../fonts/NeutralFaceBold.woff2") format('woff2'),
+		 url("../fonts/NeutralFaceBold.woff") format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Neutral Face';
+	src: url("../fonts/NeutralFaceRegular.woff2") format('woff2'),
+		 url("../fonts/NeutralFaceRegular.woff") format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@import url("reset.css");
+
+body {
+	font-family: "Merriweather", sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	text-align: center;
+}
+
+.title {
+	font-style: italic;
+	color: rgba(32, 16, 173, 0.692);
+	font-weight:1, 700;
+	text-shadow: 2px 4px 6px #140247;
+}
+
+
+
+.text {
+	font-family: "Lobster", sans-serif;
+	font-weight: 400;
+	text-align: justify;
+	color: greenyellow;
+	line-height: 1.7;
+	text-indent: 7%;
+	letter-spacing: 6px;
+	white-space: normal;
+	word-spacing: 10px;
+}
+
+.t-5 p{
+	color: darkred;
+	text-decoration: underline;
+	text-transform: none;
+	white-space: nowrap;
+}
+
+ol {
+	color: cyan;
+}
+
+.facebook {
+	text-decoration: line-through;
+}
+
+.footer-info {
+	font-family: "NeutralFaceBold", sans-serif;
+	font-weight: 700;
+	text-decoration: overline;
+	color: rgba(0, 255, 0, 0.808);
+	text-shadow: -4px -2px 10px #329b18;
+	text-transform: uppercase;
+}
+
